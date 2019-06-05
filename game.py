@@ -8,13 +8,15 @@ print ("you chose: ", user_choice)
 
 #Validate Inputs
 
-if user_choice in ["rock","paper","scissor"]:
-    print ("Valid")
-else:
+if user_choice not in ["rock","paper","scissor"]:
     print("Invalid selection, Please try again")
     exit()
+
+
 #Generate Computer Selection
 print ("Generating.......")
+
+
 #Determine  The winner
 
 #display final outputs
